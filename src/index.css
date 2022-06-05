@@ -12,6 +12,6 @@ code {
     monospace;
 }
 body.Dark{
-  background: black;
-  color: white;
+  background: rgb(21, 24, 65);
+   color: white;
 }

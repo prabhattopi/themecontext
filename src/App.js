@@ -22,7 +22,8 @@ function App() {
     <>
     
     <div>
-    <button onClick={toggleTheme}>{isLight?"Dark":"Light"}</button>
+      {isLight?
+    <button className="butt" onClick={toggleTheme}><i className="fa-solid fa-moon hor"></i></button>:<button className="butt" onClick={toggleTheme}><i className="fa-solid fa-sun hor"></i></button>}
     <Navbar/>
     <Routes>
       <Route path="" element={<Home/>}/>
